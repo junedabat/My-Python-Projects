@@ -52,7 +52,10 @@ class FynnAtlasConverter:
     # Close the files
     read_file.close()
     write_file.close()
-      
+
+
+  def convert_atlas_to_data(self) -> None:
+    pass
 
   # Takes a string and outputs a list of elements that are separated by "="
   # (e.g: Input: "msg1=Legeaater" -> Output: ["msg1","Legeaater"]
